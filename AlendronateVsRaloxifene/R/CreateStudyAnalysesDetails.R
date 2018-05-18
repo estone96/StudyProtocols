@@ -35,7 +35,7 @@ createAnalysesDetails <- function(connectionDetails, cdmDatabaseSchema, workFold
 
   targetCohortId <- 99321
   comparatorCohortId <- 99322
-  outcomeList <- c(99323, 100791, 100792, 100793, 100794, 100795)
+  outcomeList <- c(99323, 100791, 100792, 100793, 100794, 100795, 1769024)
 
   # Default Prior & Control settings ----
   defaultPrior <- Cyclops::createPrior("laplace",
